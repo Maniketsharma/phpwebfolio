@@ -1,0 +1,18 @@
+<?php
+echo"<h1>The PHP switch Statement </h1>";
+$ride = "Trip";
+
+switch ($ride) {
+  case "Car":
+    echo "Your favorite ride  in car!";
+    break;
+  case "Bike":
+    echo "Your favorite ride in Motoriding!";
+    break;
+  case "jeep":
+    echo "Your favorite ride is Off-Roading!";
+    break;
+  default:
+    echo "Your favorite ride is neither Car, Bike, nor Jeep!";
+}
+?>

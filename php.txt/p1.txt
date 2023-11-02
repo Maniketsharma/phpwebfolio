@@ -1,0 +1,9 @@
+<?php
+echo"<h1>Php Login form validation using GET method</h1>";
+$a=$_GET['name'];
+$b=$_GET['email'];
+$c=$_GET['pass'];
+echo $a."<br>";
+echo $b."<br>";
+echo $c."<br>";
+?>

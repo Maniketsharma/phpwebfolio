@@ -1,0 +1,24 @@
+<?php
+echo"<h1>If statement condition in php</h1>";
+$t = 4;
+if ($t < 20) {
+  echo "Have a good day!";
+  echo"<h1>If-else statement condition in php</h1>";
+  $s = 22;
+
+  if ($s < 20) {
+    echo "Have a good day!";
+  } else {
+    echo "Have a good night!";
+  }
+  echo"<h1>PHP - The if...elseif...else Statement</h1>";
+  $t = 98;
+if ($t != 11) {
+  echo "This is greater then ".$t."<br>";
+} elseif ($t >= "20") {
+  echo "This is smaller then ".$t."<br>";
+} else {
+  echo "THis is biggest number rather then",$t."<br>";
+}
+}
+?>

@@ -1,0 +1,12 @@
+<?php
+echo"<h1>PHP Sorting Arrays</h1>";
+$cars = array("Volvo🚛", "BMW🏎️", "Toyota😊");
+sort($cars);
+foreach($cars as $value){
+    echo $value . "<br>";
+}
+$numbers = array(4, 6, 2, 22, 11);
+echo sort($numbers);
+$cars = array("Volvo", "BMW", "Toyota");
+echo rsort($cars);
+?>

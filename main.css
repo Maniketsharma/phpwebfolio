@@ -1,0 +1,290 @@
+@import url('https://icons.getbootstrap.com/');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/php.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.par{
+    border:ridge;
+    color:azure;
+    background-image: url('img/chess.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+header {
+    border:ridge;
+    color: cornflowerblue;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url('images.jpg');
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fas.fa-search{
+  color: antiquewhite;
+}
+button{
+  background-color: transparent;
+    color:#fff;
+    border-radius: 25px;
+    font-size: large;
+    text-decoration: none;
+    cursor: pointer;
+}
+header h1 {
+    font-size: 36px;
+    cursor: pointer;}
+nav {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 39px;
+    padding-top: 1px;
+    padding-right: 34px;
+}
+
+.navbar {
+    border-radius: 25px;
+    border: #fff;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 10px;
+}
+
+.navbar a {
+    padding: 100px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar i {
+    margin-right: 5px;
+}
+.container {
+    max-width: 1200px;
+    margin: 12px auto;
+    padding: 20px;
+    color: whitesmoke;
+    border: #101011;
+}
+
+.main-content {
+    border:ridge;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 24px;
+}
+
+.sidebar {
+    border:ridge;
+    border-radius: 30px;
+    background-color: transparent;
+        border-radius: 25px;
+    padding: 20px;
+    width: 30%;
+    float: left;
+}
+
+.content {
+    border:ridge;
+    cursor: pointer;
+    width: 65%;
+    float: left;
+    padding: 20px;
+    background-color: transparent;
+}
+footer {
+  
+    cursor: pointer;
+    color: #fff;
+    border:ridge;
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 25px;
+    border-color:  silver;
+}
+.search-container {
+    border-radius: 50px;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
+button{
+    border-radius:30px;
+    color: #fff;
+    text-decoration: none;
+}
+.search-container input[type="text"] {
+    border-radius: 50px;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    }
+    @media(max-width:1480px){
+      .par{
+        border:ridge;
+        color:azure;
+        background-image: url('img/chess.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 25px;
+        margin: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+    
+    header {
+        border:ridge;
+        color: cornflowerblue;
+        padding: 20px 0;
+        text-align: center;
+        background-image: url('images.jpg');
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fas.fa-search{
+      color: antiquewhite;
+    }
+    button{
+      background-color: transparent;
+        color:#fff;
+        border-radius: 25px;
+        font-size: large;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    header h1 {
+        font-size: 36px;
+        cursor: pointer;}
+    nav {
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 39px;
+        padding-top: 1px;
+        padding-right: 34px;
+    }
+    
+    .navbar {
+        border-radius: 25px;
+        border: #fff;
+        cursor: pointer;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbar li {
+        margin: 10px;
+    }
+    
+    .navbar a {
+        padding: 100px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .navbar i {
+        margin-right: 5px;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 12px auto;
+        padding: 20px;
+        color: whitesmoke;
+        border: #101011;
+    }
+    
+    .main-content {
+        border:ridge;
+        border-radius: 30px;
+        background-color: transparent;
+        padding: 20px;
+    }
+    
+    .main-content h2 {
+        font-size: 24px;
+    }
+    
+    .sidebar {
+        border:ridge;
+        border-radius: 30px;
+        background-color: transparent;
+            border-radius: 25px;
+        padding: 20px;
+        width: 30%;
+        float: left;
+    }
+    
+    .content {
+        border:ridge;
+        cursor: pointer;
+        width: 65%;
+        float: left;
+        padding: 20px;
+        background-color: transparent;
+    }
+    footer {
+      
+        cursor: pointer;
+        color: #fff;
+        border:ridge;
+        background-color: transparent;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 25px;
+        border-color:  silver;
+    }
+    .search-container {
+        border-radius: 50px;
+        float: right;
+        padding: 10px;
+        text-decoration: none;
+    }
+    button{
+        border-radius:30px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .search-container input[type="text"] {
+        border-radius: 50px;
+        background-color: transparent;
+        color: aliceblue;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+        }
+      }

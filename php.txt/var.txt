@@ -1,0 +1,18 @@
+<?php
+echo"<h1>Print php statement in output</h1>";
+echo" Hello php"; // print php statement in output
+echo"<h1>Variable declaration Datatype </h1>";
+$a =10;
+$b="Maniket";
+$d =1.23;
+$e=12.4;
+$x = true;
+$y = false;
+echo("this is varible decalration in  php");
+echo $a."<br>";
+echo $b."<br>";
+echo $d."<br>";
+echo $e."<br>";
+echo $x."<br>";
+echo $y."<br>";
+?>

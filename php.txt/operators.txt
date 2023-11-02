@@ -1,0 +1,29 @@
+<?php
+$x = 10;  
+$y = 6;
+echo"<h1> Php Airthmatic operator</h1> <br>";
+echo $x + $y."<br>";
+echo $x - $y."<br>";
+echo $x * $y."<br>";
+echo $x / $y."<br>";
+echo $x % $y."<br>";
+echo $x ** $y."<br>";
+echo"<h1> Php Assignment operator</h1> <br>";
+echo $x = $y; echo"<br>";
+echo $x += $y;echo"<br>";
+echo $x -= $y;echo"<br>";
+echo $x *= $y;echo"<br>";
+echo $x /= $y;echo"<br>";
+echo $x %= $y;echo"<br>";
+echo"<h1> Php Comparision operator</h1> <br>";
+echo $x == $y;echo"<br>";
+echo $x === $y;echo"<br>";
+echo $x != $y;echo"<br>";
+echo $x <> $y;echo"<br>";
+echo $x !== $y;echo"<br>";
+echo $x > $y; echo"<br>";
+echo $x < $y; echo"<br>";
+echo $x <= $y;echo"<br>";
+echo $x >= $y;echo"<br>";
+echo $x <=> $y;echo"<br>";
+?>

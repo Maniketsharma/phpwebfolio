@@ -1,0 +1,22 @@
+<?php
+echo"<h1> Arrays in php 1-d arrays</h1>";
+$ar = array("Volvo", "BMW", "Toyota");
+echo "I like " . $ar[0] . ", " . $ar[1] . " and " . $ar[2] . ".";
+$ar = array("Volvo", "BMW", "Toyota");
+echo count($ar);
+echo"<h1> Indexed arrays</h1>";
+$ar = array("Volvo", "BMW", "Toyota");
+$arrlength = count($ar);
+
+for($x = 0; $x < $arrlength; $x++) {
+  echo $ar[$x];
+  echo "<br>";
+}
+echo"<h1> Associative arrays</h1>";
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+foreach($age as $x => $x_value) {
+  echo "Key=" . $x . ", Value=" . $x_value;
+  echo "<br>";
+}
+?>

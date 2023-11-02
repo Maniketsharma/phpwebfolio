@@ -1,0 +1,9 @@
+<?php
+echo"<h1>Php Login form validation using POST method</h1>";
+$a=$_POST['name'];
+$b=$_POST['email'];
+$c=$_POST['pass'];
+echo $a."<br>";
+echo $b."<br>";
+echo $c."<br>";
+?>

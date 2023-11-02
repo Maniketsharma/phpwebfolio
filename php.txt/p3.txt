@@ -1,0 +1,11 @@
+<?php
+echo"<h1>Php Complete form validation using POST method</h1>";
+$a=$_POST['name'];
+$b=$_POST['email'];
+$c=$_POST['class'];
+$d=$_POST['rno'];
+echo $a."<br>";
+echo $b."<br>";
+echo $c."<br>";
+echo $d."<br>";
+?>
